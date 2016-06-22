@@ -1,0 +1,65 @@
+form{
+	/*Just to leave the form in the centre of the page*/
+	margin: 0 auto;
+	width: 600px;
+	
+	/*To see the outline of the form*/
+	padding: 1em;
+	/*border: 1px solid #CCC;
+	border-radius: 1em;*/
+}
+
+dd{
+	word-wrap: break-word;
+}
+form div + div{
+	/*Add space between each form widget*/
+	margin-top: 1em;
+	
+}
+label{
+	/*To make all labels same size and align*/
+	display: inline-block;
+	width: 120px;
+	text-align: left;
+}
+input, textarea, select {
+	/*All text fields have same font setting and text areas have monospace font*/
+	font: 1em sans-serif;
+	display: inline-block;
+	/*Same size to all text fields*/
+	width: 300px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	border: 1px solid #999;
+}
+input:FOCUS, textarea:FOCUS {
+	border-color: #000;
+	
+}
+textarea {
+	vertical-align: top;
+	
+	height: 5em;
+	
+	resize: vertical;
+}
+.button {
+	/*To position the buttons to the same position of the text fields*/
+	padding-left: 90px;
+	
+}
+button {
+	margin-left: 5em;
+	position: relative;
+}
+
+h2{
+	color: #00b0f0;
+	font-size: xx-large;
+	
+}
+error{
+	color: red; font-weight: bold;
+}
